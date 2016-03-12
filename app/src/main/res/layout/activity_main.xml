@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Daily Active!"
+        android:text="Welcome to Daily Active APP!"
         android:textSize="40sp"
         />
 </RelativeLayout>
