@@ -15,6 +15,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".OI"
+            android:label="@string/title_activity_oi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DI"
+            android:label="@string/title_activity_di"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ON"
+            android:label="@string/title_activity_on"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DN"
+            android:label="@string/title_activity_dn"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
