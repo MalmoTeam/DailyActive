@@ -3,7 +3,7 @@ package malmoteam.dailyactive;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 public class ON extends AppCompatActivity {
 
@@ -13,9 +13,10 @@ public class ON extends AppCompatActivity {
         setContentView(R.layout.activity_on);
 
 
-        Button back = (Button) findViewById(R.id.btnBackon);
+        //Button back = (Button) findViewById(R.id.btnBackon);
+        ImageButton btn= (ImageButton) findViewById(R.id.btnBackon);
 
-        back.setOnClickListener(new View.OnClickListener() {
+        btn.setOnClickListener(new View.OnClickListener() {
                                     public void onClick(View arg0) {
                                         finish();
                                     }

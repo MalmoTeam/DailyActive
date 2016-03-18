@@ -21,10 +21,12 @@
         android:id="@+id/textView2"
         android:layout_weight="0.83" />
 
-    <Button android:id="@+id/btnBack"
-        android:layout_width="fill_parent"
+    <ImageButton
+        android:layout_width="127dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dip"
-        android:text="Back"/>
+        android:id="@+id/btnBack"
+        android:src="@drawable/back"
+        android:layout_gravity="center_horizontal"
+        android:background="#f2f60a" />
 
 </LinearLayout>
