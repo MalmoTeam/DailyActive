@@ -1,7 +1,3 @@
 <resources>
-    <string name="app_name">DailyActive</string>
-    <string name="title_activity_oi">OI</string>
-    <string name="title_activity_di">DI</string>
-    <string name="title_activity_on">ON</string>
-    <string name="title_activity_dn">DN</string>
+    <string name="app_name">Daily Active</string>
 </resources>
