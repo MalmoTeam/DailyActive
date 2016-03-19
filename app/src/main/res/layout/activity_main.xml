@@ -9,15 +9,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="malmoteam.dailyactive.MainActivity">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to Daily Active APP!"
-        android:textSize="40sp"
-        />
+        android:textSize="40sp" />
 
-    <requestFocus
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="86dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@android:id/list"
+        android:layout_weight="1" />
+
+
+
 </RelativeLayout>
