@@ -9,7 +9,7 @@
 
     <TextView android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="flip mattres etc.."
+        android:text="Not important take piano lessons etc"
         android:textSize="25dip"
         android:gravity="center"
         android:layout_margin="15dip"/>
